@@ -1,1 +1,7 @@
-# mapping
+# Mapping
+
+Choose yours.
+
+## License
+
+[MIT](./LICENSE)
