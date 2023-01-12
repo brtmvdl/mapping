@@ -6,6 +6,6 @@ services:
     ports:
       - '80:80'
 
-  github-artifacts:
-    image: 'github-artifacts'
+  github-release:
+    image: 'github-release'
     build: './src'
