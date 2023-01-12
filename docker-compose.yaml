@@ -1,0 +1,11 @@
+version: '3'
+
+services:
+  www:
+    build: './src/www'
+    ports:
+      - '80:80'
+
+  github-artifacts:
+    image: 'github-artifacts'
+    build: './src'
